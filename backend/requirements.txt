@@ -1,0 +1,33 @@
+# PrivacyLens Backend Requirements
+# Core web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# PDF processing
+PyMuPDF==1.23.8
+
+# Image processing
+Pillow==10.0.1
+opencv-python==4.8.1.78
+
+# OCR
+pytesseract==0.3.10
+
+# HTTP requests
+requests==2.31.0
+
+# NLP (optional, for future enhancements)
+spacy==3.7.2
+
+# Data handling
+numpy==1.24.3
+
+# File handling
+python-multipart==0.0.6
+
+# Environment variables (optional)
+python-dotenv==1.0.0
+
+# Development dependencies (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
